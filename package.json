@@ -1,0 +1,20 @@
+{
+  "name": "answer-js-interview-with-figure",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "tyankatsu",
+    "email": ""
+  },
+  "repository": "https://github.com/tyankatsu0105/answer-js-interview-with-figure",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "vuepress": "^1.5.3"
+  }
+}
