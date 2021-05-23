@@ -17,7 +17,5 @@
     "@types/node": "^15.6.0",
     "vuepress": "^1.5.3"
   },
-  "dependencies": {
-    "vuepress-plugin-code-preview": "^1.0.0"
-  }
+  "dependencies": {}
 }
