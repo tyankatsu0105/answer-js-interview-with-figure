@@ -1,8 +1,8 @@
-# Object の作成パターン
+# Object の作成パターン(What are the possible ways to create objects in JavaScript)
 
 [https://github.com/sudheerj/javascript-interview-questions#what-are-the-possible-ways-to-create-objects-in-javascript](https://github.com/sudheerj/javascript-interview-questions#what-are-the-possible-ways-to-create-objects-in-javascript)
 
-1.Object constructor
+## Object constructor
 
 ```js
 const object = new Object();
@@ -10,7 +10,7 @@ const object = new Object();
 
 [https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/Object](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/Object)
 
-2. Object.create()
+## Object.create()
 
 ```js
 const object = Object.create({});
@@ -18,7 +18,7 @@ const object = Object.create({});
 
 [https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/create](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
 
-3. Object initializer
+## Object initializer
 
 ```js
 const object = {};
@@ -26,7 +26,7 @@ const object = {};
 
 [https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Object_initializer](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Object_initializer)
 
-4.Function constructor
+## Function constructor
 
 ```js
 function Person {
@@ -42,7 +42,7 @@ const object = new Person()
 
 [https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Function/Function](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Function/Function)
 
-5. Function constructor with prototype
+## Function constructor with prototype
 
 ```js
 function Person {}
@@ -52,7 +52,7 @@ const object = new Person()
 
 関数に prototype を生やす
 
-6. ES6 Class syntax
+## ES6 Class syntax
 
 ```js
 class Person {
