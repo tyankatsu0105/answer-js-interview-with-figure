@@ -18,6 +18,8 @@ ecma spec 的に、end の値は`relativeEnd`と呼ばれていて、start と�
 
 ## shallow copy
 
-slice は shallow copy なので、1 階層目以外を変更すると、slice 元に影響が出る
+slice は shallow copy なので、1 階層目以外を変更すると、slice 元に影響が出る。
+shallow copy はプリミティブ値以外の値は参照渡しになる。
+lodash#cloneDeep は、内部でプリミティブ値以外のときは地道に条件分岐で再帰処理している。
 
 <Code name="array-slice-hn962" />
